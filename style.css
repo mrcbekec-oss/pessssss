@@ -32,17 +32,18 @@
 }
 
 .match-3d-score {
-    background: rgba(0, 0, 0, 0.8);
-    backdrop-filter: blur(10px);
-    padding: 10px 30px;
-    border-radius: 50px;
-    border: 1px solid var(--gold);
+    background: rgba(15, 23, 42, 0.9);
+    backdrop-filter: blur(15px);
+    padding: 12px 40px;
+    border-radius: 20px;
+    border: 2px solid var(--gold);
     display: flex;
-    gap: 20px;
+    gap: 30px;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 24px;
     color: #fff;
-    box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 20px rgba(241, 196, 15, 0.2);
+    letter-spacing: 2px;
 }
 
 #m3d-score-text {
@@ -62,14 +63,18 @@
 
 .match-3d-controls-hint {
     position: fixed;
-    bottom: 20px;
+    bottom: 30px;
     left: 50%;
     transform: translateX(-50%);
-    background: rgba(0, 0, 0, 0.5);
-    padding: 8px 15px;
-    border-radius: 20px;
-    font-size: 12px;
+    background: rgba(15, 23, 42, 0.8);
+    backdrop-filter: blur(8px);
+    padding: 10px 25px;
+    border-radius: 12px;
+    font-size: 13px;
+    font-weight: 600;
     color: #fff;
+    border: 1px solid rgba(255,255,255,0.1);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 }
 
 #match-3d-canvas-container {
